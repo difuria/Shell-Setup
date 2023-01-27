@@ -7,12 +7,13 @@ $directory\
 $git_branch\
 $git_status\
 [](fg:#394260 bg:#212736)\
-$golang\
+$java\
 $nodejs\
+$rust\
+$golang\
 $php\
 $python\
 $ruby\
-$rust\
 [](fg:#212736 bg:#1d2230)\
 $time\
 [ ](fg:#1d2230)\
@@ -48,6 +49,11 @@ Amazon = "󰻀"
 Linux = "󰻀"
 Macos = ""
 
+[java]
+symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
+
 [nodejs]
 symbol = ""
 style = "bg:#212736"
@@ -74,7 +80,7 @@ style = "bg:#212736"
 format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
 
 [ruby]
-symbol = ""
+symbol = ""
 style = "bg:#212736"
 format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
 
