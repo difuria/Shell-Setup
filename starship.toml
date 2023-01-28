@@ -1,3 +1,5 @@
+# Uses Nerd Font: Hack Nerd Font Mono
+
 format = """
 [░▒▓](#a3aed2)\
 $os\
@@ -87,6 +89,6 @@ format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
 
 [time]
 disabled = false
-time_format = "%R" # Hour:Minute Format
+time_format = "%T" # Hour:Minute:Second Format
 style = "bg:#1d2230"
 format = '[[  $time ](fg:#a0a9cb bg:#1d2230)]($style)'
