@@ -37,7 +37,7 @@ truncation_symbol = "…/"
 [directory.substitutions]
 "Documents" = " "
 "Downloads" = " "
-"Music" = "� "
+"Music" = "󰝚 "
 "Pictures" = " "
 
 [git_branch]
@@ -55,8 +55,8 @@ style = "bg:#a3aed2 fg:#090c0c"
 format = "[ $symbol ]($style)"
 
 [os.symbols]
-Amazon = "󰻀"
-Linux = "󰻀"
+Amazon = ""
+Linux = ""
 Macos = ""
 
 [golang]
