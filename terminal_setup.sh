@@ -46,8 +46,8 @@ elif [[ `uname` == "Linux" ]]; then
     mkdir -p ~/downloads/nerd-fonts
     curl -LJO https://github.com/ryanoasis/nerd-fonts/archive/refs/heads/master.zip --output-dir ~/downloads/nerd-fonts
     unzip nerd-fonts-master.zip -d ~/downloads/nerd-fonts
-    chmod +x ~/downloads/nerd-fonts/install.sh
-    ~/downloads/nerd-fonts/install.sh
+    chmod +x ~/downloads/nerd-fonts/nerd-fonts-master/install.sh
+    ~/downloads/nerd-fonts/nerd-fonts-master/install.sh
   fi
 
   # vscode_settings="$HOME/.config/Code/User/settings.json"
