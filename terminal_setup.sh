@@ -19,7 +19,7 @@ if [[ `uname` == "Darwin" ]]; then
   if [[ $? -eq 0 ]]; then
     brew install font-hack-nerd-font
   else
-    brew reinstal font-hack-nerd-font
+    brew reinstall font-hack-nerd-font
   fi
 
   vscode_settings="$HOME/Library/Application\ Support/Code/User/settings.json"
