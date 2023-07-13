@@ -5,6 +5,10 @@ if [[ `uname` == "Darwin" ]]; then
   brew update
   brew upgrade
 
+  # Install Dev tools
+  brew install git
+  brew install ruby
+  
   brew install --cask iterm2
   if [[ `which starship` != "" ]]; then
     brew install starship
@@ -25,6 +29,9 @@ if [[ `uname` == "Darwin" ]]; then
   vscode_settings="$HOME/Library/Application\ Support/Code/User/settings.json"
   eval cat $vscode_settings
   jq '."terminal.external.osxExec"' /Users/difuria/Library/Application\ Support/Code/User/settings.json
+
+  # AWS Setup bits
+  brew install groff
 elif [[ `uname` == "Linux" ]]; then
   echo "Running on Linux"
   curl -sS https://starship.rs/install.sh | sh -s -- -y
